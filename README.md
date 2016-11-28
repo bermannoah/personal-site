@@ -1,24 +1,12 @@
-# README
+# A personal profile site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+At the moment, a pretty basic HTML/CSS landing page with some nifty animation effects.
 
-Things you may want to cover:
+You can see it in its v1.0 form [here](http://www.noahberman.org).
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+TODO:
+-Properly configure for a switch to a more configurable hosting solution.
+-Migrate domain, add HTTPS / Let's Encrypt cert.
+-Figure out interesting or at least useful way to display projects.
+-Improve the design...
+-...while still maintaining a low [web-bloat score](http://www.webbloatscore.com/). Currently: 0.142. (Lower is better.) 
