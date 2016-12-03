@@ -26,11 +26,9 @@ let server = HTTPServer()
 
 // Register your own routes and handlers
 var routes = Routes()
-routes.add(method: .get, uri: "/", handler: {
+routes.add(method: .get, uri: "/**", handler: {
 		request, response in
-		response.setHeader(.contentType, value: "text/html")
-		response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
-		response.completed()
+		StaticFileHandler(documentRoot: request.documentRoot).handleRequest(request: request, response: response)
 	}
 )
 
@@ -43,7 +41,7 @@ server.serverPort = 8181
 // Set a document root.
 // This is optional. If you do not want to serve static content then do not set this.
 // Setting the document root will automatically add a static file handler for the route /**
-server.documentRoot = "./webroot"
+server.documentRoot = "./webroot/index.html"
 
 // Gather command line options and further configure the server.
 // Run the server with --help to see the list of supported arguments.
