@@ -19,44 +19,7 @@
 # Ignore .DS_Store files
 .DS_Store
 
-# Swift ignore config
-#
-build/
-DerivedData/
-
-# various settings
-.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mod2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
-
-## other 
-*.moved-aside
-*.xcuserstate
-
-## Obj-C/Swift Specific
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
-
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
-
-Packages/
-.build/
-
-Pods/
-
-Carthage/Checkouts
-
-Carthage/Build
-
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots
-fastlane/test_output
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

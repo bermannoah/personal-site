@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ /* Page styles */
+
+ * {
+   background-color: #fff;
+  -webkit-animation: color_change 4s infinite alternate;
+  -moz-animation: color_change 4s infinite alternate;
+  -ms-animation: color_change 4s infinite alternate;
+  -o-animation: color_change 4s infinite alternate;
+  animation: color_change 4s infinite alternate;
+  font-family: 'Roboto', sans-serif;
+ }
+
+ /* Text styles */
+
+ .logo {
+   font-family: Helvetica, sans-serif;
+   font-size: 50px;
+   font-weight: 900;
+   color: #000;
+   position: relative;
+   margin: 20px;
+   float: left;
+   margin-top: 50px;
+   margin-left: 75px;
+   border-bottom: 5px solid black;
+ }
+
+ .logo > a {
+   font-family: Helvetica, sans-serif;
+   font-size: 50px;
+   font-weight: 900;
+ }
+
+ .info {
+   font-family: 'Roboto', Helvetica, sans-serif;
+   font-size: 1.5em;
+   font-weight: 900;
+   color: #000;
+   position: relative;
+   float: left;
+   clear: both;
+   margin: 23px;
+   line-height: 40px;
+   margin-left: 75px;
+   padding: 5px;
+ }
+
+ .info > p {
+   font-family: 'Roboto', Helvetica, sans-serif;
+   font-weight: 900;
+ }
+
+
+ /* Link styles */
+
+ a {
+   text-decoration: none;
+   color: #fff;
+ }
+
+ a:hover {
+   text-decoration: none;
+   color: #8DC27C;
+ }
+
+ a:visited {
+   text-decoration: none;
+   color: #fff;
+ }
+ a:visited:hover {
+   color: #8DC27C;
+ }
+
+ .logo > a {
+   text-decoration: none;
+   color: #000;
+ }
+
+ .logo > a:hover {
+   text-decoration: none;
+   color: #000;
+ }
+
+ .logo > a:visited {
+   color: #000;
+ }
+
+ /* Keyframes */
+
+ @-webkit-keyframes color_change {
+   from {background-color: #7CB0C2; }
+   to {background-color: #C28E7C; }
+ }
+ @-moz-keyframes color_change {
+   from {background-color: #7CB0C2; }
+   to {background-color: #C28E7C; }
+ }
+ @-ms-keyframes color_change {
+   from {background-color: #7CB0C2; }
+   to {background-color: #C28E7C; }
+ }
+ @-o-keyframes color_change {
+   from {background-color: #7CB0C2; }
+   to {background-color: #C28E7C; }
+ }
+ @keyframes color_change {
+   from {background-color: #7CB0C2; }
+   to {background-color: #C28E7C; }
+ }
