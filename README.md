@@ -6,8 +6,6 @@ You can see it in its v1.0 form [here](http://www.noahberman.org).
 
 TODO:
 
--Recreate entire project with a Swift backend. It's an experiment! What could go wrong?!
-
 -Properly configure for a switch to a more configurable hosting solution.
 
 -Migrate domain, add HTTPS / Let's Encrypt cert.
