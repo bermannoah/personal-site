@@ -1,10 +1,10 @@
-class Pages < ApplicationController
+class PagesController < ApplicationController
   
   def index  
   end
   
   def letsencrypt
-      render text: "giO1gQdpRG9ykWfR-WGE5LWSac0pzAUoZRKU9sz9_l4.xlGyfrHrtI-y18Y4oMDxvn8HQ-K8KrrDo3fRY6AyNJI"
+      render text: "g_Lg14RVF4xJoUvUP6JimuDArzpqe27MF2waw2fQhrc.y7J190Z88fdVtXgvwJMMQ1FLPA66Hbymzt_juuyzoUY"
   end
   
 end
