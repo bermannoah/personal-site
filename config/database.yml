@@ -80,6 +80,10 @@ test:
 #
 production:
   <<: *default
+  host: localhost
+  adapter: postgresql
+  encoding: utf8
   database: personal-site_production
-  username: personal-site
+  pool: 5
+  username: <%= ENV['PERSONAL-SITE_DATABASE_USER'] %>
   password: <%= ENV['PERSONAL-SITE_DATABASE_PASSWORD'] %>
