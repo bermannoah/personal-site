@@ -12,6 +12,7 @@ test:
   database: personal-site_test
 
 production:
+  adapter: postgresql
   database: personal-site_production
   username: rails
   password: <%= ENV['APP_DATABASE_PASSWORD'] %>
