@@ -57,6 +57,11 @@
    font-weight: normal;
  }
  
+ .portfolio-link {
+   font-size: 2rem !important;
+   font-weight: bold;
+ }
+ 
  .card-fix {
    max-width: 50%;
    border: 1px solid black;
