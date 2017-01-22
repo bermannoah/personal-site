@@ -16,7 +16,7 @@
 
 
  /* Page styles */
- * {
+ /** {
    background-color: #fff;
   -webkit-animation: color_change 4s infinite alternate;
   -moz-animation: color_change 4s infinite alternate;
@@ -24,7 +24,7 @@
   -o-animation: color_change 4s infinite alternate;
   animation: color_change 4s infinite alternate;
   font-family: 'Roboto', sans-serif;
- }
+ }*/
 
  /* Text styles */
 
@@ -71,20 +71,20 @@
 
  a {
    text-decoration: none;
-   color: #fff;
+   color: #008b8b;
  }
 
  a:hover {
    text-decoration: none;
-   color: #8DC27C;
+   color: #AA8F00;
  }
 
  a:visited {
    text-decoration: none;
-   color: #fff;
+   color: #008b8b;
  }
  a:visited:hover {
-   color: #8DC27C;
+   color: #AA8F00;
  }
 
  .logo > a {
