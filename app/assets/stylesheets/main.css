@@ -50,8 +50,21 @@
    font-family: 'Roboto', Helvetica, sans-serif;
    font-weight: 900;
  }
+ 
+ .portfolio {
+  position: relative;
+  float: left;
+  clear: both;
+  margin: 23px;
+  line-height: 40px;
+  margin-left: 75px;
+  padding: 5px;
 
+ }
 
+ .portfolio-image {
+   max-width: 50%;
+ }
  /* Link styles */
 
  a {
