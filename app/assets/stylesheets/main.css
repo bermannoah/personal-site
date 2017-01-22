@@ -1,16 +1,3 @@
-
-
- /* Page styles */
- /** {
-   background-color: #fff;
-  -webkit-animation: color_change 4s infinite alternate;
-  -moz-animation: color_change 4s infinite alternate;
-  -ms-animation: color_change 4s infinite alternate;
-  -o-animation: color_change 4s infinite alternate;
-  animation: color_change 4s infinite alternate;
-  font-family: 'Roboto', sans-serif;
- }*/
-
  /* Text styles */
 
  .logo {
@@ -62,8 +49,17 @@
 
  }
 
- .portfolio-image {
+ .portfolio-header {
+   font-weight: bold;
+ }
+
+ .portfolio-text {
+   font-weight: normal;
+ }
+ 
+ .card-fix {
    max-width: 50%;
+   border: 1px solid black;
  }
  /* Link styles */
 
@@ -97,27 +93,4 @@
 
  .logo > a:visited {
   color: #000;
- }
- 
- /* Keyframes */
-
- @-webkit-keyframes color_change {
-   from {background-color: #7CB0C2; }
-   to {background-color: #C28E7C; }
- }
- @-moz-keyframes color_change {
-   from {background-color: #7CB0C2; }
-   to {background-color: #C28E7C; }
- }
- @-ms-keyframes color_change {
-   from {background-color: #7CB0C2; }
-   to {background-color: #C28E7C; }
- }
- @-o-keyframes color_change {
-   from {background-color: #7CB0C2; }
-   to {background-color: #C28E7C; }
- }
- @keyframes color_change {
-   from {background-color: #7CB0C2; }
-   to {background-color: #C28E7C; }
  }
