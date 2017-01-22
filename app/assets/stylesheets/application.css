@@ -94,13 +94,13 @@
 
  .logo > a:hover {
    text-decoration: none;
-   color: #000;
+   color: #AA8F00;
  }
 
  .logo > a:visited {
    color: #000;
  }
-
+ 
  /* Keyframes */
 
  @-webkit-keyframes color_change {
