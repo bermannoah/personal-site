@@ -5,13 +5,13 @@
    font-size: 50px;
    font-weight: 900 !important;
    color: #000;
-   position: fixed;
-   top: 30rem;
-   right: 36.5rem;
    margin: 20px;
    margin-right: 75px;
    margin-top: 50px;
+   margin-bottom: 30px;
    border-bottom: 5px solid black;
+   position: fixed;
+   right: 31.75rem;
  }
 
  .logo > a {
@@ -21,15 +21,14 @@
  }
 
  .info {
-   position: fixed;
    font-family: 'Roboto', Helvetica, sans-serif;
    font-size: 1.5em;
    font-weight: 900;
    color: #000;
-   right: 1.5rem;
-   line-height: 40px;
-   margin-right: 75px;
-   margin-top: 50px;
+   line-height: 30px;
+   position: fixed;
+   top: 18rem;
+   right: 3rem;
  }
 
  .info > p {
@@ -38,7 +37,6 @@
  }
  
  .portfolio {
-   position: absolute;
    font-family: 'Roboto', Helvetica, sans-serif;
    font-size: 1.5em;
    font-weight: 900;
