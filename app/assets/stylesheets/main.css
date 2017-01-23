@@ -1,3 +1,38 @@
+/* Page styles */
+ html {
+   background-color: #fff;
+  -webkit-animation: color_change 4s infinite alternate;
+  -moz-animation: color_change 4s infinite alternate;
+  -ms-animation: color_change 4s infinite alternate;
+  -o-animation: color_change 4s infinite alternate;
+  animation: color_change 4s infinite alternate;
+  font-family: 'Roboto', sans-serif;
+ }
+ 
+ /* Keyframes */
+
+@-webkit-keyframes color_change {
+  from {background-color: #7CB0C2; }
+  to {background-color: #C28E7C; }
+}
+@-moz-keyframes color_change {
+  from {background-color: #7CB0C2; }
+  to {background-color: #C28E7C; }
+}
+@-ms-keyframes color_change {
+  from {background-color: #7CB0C2; }
+  to {background-color: #C28E7C; }
+}
+@-o-keyframes color_change {
+  from {background-color: #7CB0C2; }
+  to {background-color: #C28E7C; }
+}
+@keyframes color_change {
+  from {background-color: #7CB0C2; }
+  to {background-color: #C28E7C; }
+}
+
+ 
  /* Text styles */
 
  .logo {
@@ -11,7 +46,7 @@
    margin-bottom: 30px;
    border-bottom: 5px solid black;
    position: fixed;
-   right: 31.75rem;
+   right: 31.5rem;
  }
 
  .logo > a {
@@ -29,6 +64,10 @@
    position: fixed;
    top: 18rem;
    right: 3rem;
+   /*background-color: #fff;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding: 10px;*/
  }
 
  .info > p {
@@ -70,7 +109,7 @@
 
  a {
    text-decoration: none;
-   color: #008b8b;
+   color: #fff;
  }
 
  a:hover {
@@ -80,7 +119,7 @@
 
  a:visited {
   text-decoration: none;
-  color: #008b8b;
+  color: #fff;
  }
  a:visited:hover {
   color: #AA8F00;
