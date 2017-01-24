@@ -64,10 +64,6 @@
    position: fixed;
    top: 18rem;
    right: 3rem;
-   /*background-color: #fff;
-   border: 1px solid black;
-   border-radius: 5px;
-   padding: 10px;*/
  }
 
  .info > p {
@@ -114,15 +110,16 @@
 
  a:hover {
   text-decoration: none;
-  color: #AA8F00;
+  color: #000;
  }
 
  a:visited {
   text-decoration: none;
   color: #fff;
  }
+
  a:visited:hover {
-  color: #AA8F00;
+  color: #000;
  }
 
  .logo > a {
@@ -132,9 +129,31 @@
 
  .logo > a:hover {
   text-decoration: none;
-  color: #AA8F00;
+  color: #fff;
  }
 
  .logo > a:visited {
+  color: #000;
+ }
+ 
+ .logo > a:visited:hover {
+  color: #fff;
+ }
+ 
+ .portfolio-link > a {
+  text-decoration: none;
+  color: #000;
+ }
+
+ .portfolio-link > a:hover {
+  text-decoration: none;
+  color: #AA8F00;
+ }
+
+ .portfolio-link > a:visited:hover {
+  color: #AA8F00;
+ }
+
+ .portfolio-link > a:visited {
   color: #000;
  }
