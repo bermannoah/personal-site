@@ -1,4 +1,4 @@
-/* Page styles */
+/* Whole Page Styles */
  html {
    background-color: #fff;
   -webkit-animation: color_change 4s infinite alternate;
@@ -33,20 +33,42 @@
 }
 
  
- /* Text styles */
+ /* Element Styles */
+
+ .alignment-logo {
+   float: right;
+   display: block;
+   clear: both;
+   position: relative;
+   margin-top: 5rem;
+   margin-right: 60rem;
+ }
+ 
+ .alignment-info {
+   float: right;
+   display: block;
+   clear: both;
+   position: relative;
+   margin-top: 12rem;
+   margin-right: 60rem;
+ }
+ 
+ .alignment-portfolio {
+   float: left;
+   display: block;
+   clear: both;
+   margin-top: -12rem;
+   overflow: visible;
+ }
 
  .logo {
    font-family: Helvetica, sans-serif;
    font-size: 50px;
    font-weight: 900 !important;
    color: #000;
-   margin: 20px;
-   margin-right: 75px;
-   margin-top: 50px;
-   margin-bottom: 30px;
    border-bottom: 5px solid black;
+   display: inline-block;
    position: fixed;
-   right: 31.5rem;
  }
 
  .logo > a {
@@ -62,8 +84,6 @@
    color: #000;
    line-height: 30px;
    position: fixed;
-   top: 18rem;
-   right: 3rem;
  }
 
  .info > p {
@@ -76,9 +96,6 @@
    font-size: 1.5em;
    font-weight: 900;
    color: #000;
-   float: right;
-   margin: 23px;
-   margin-top: 50px;
    line-height: 40px;
    margin-left: 75px;
   }
@@ -99,7 +116,10 @@
  .card-fix {
    max-width: 50%;
    border: 1px solid black;
-   margin-bottom: 15px;
+   margin-bottom: 2rem;
+   display: block;
+   clear: both;
+   position: relative;
  }
  /* Link styles */
 
