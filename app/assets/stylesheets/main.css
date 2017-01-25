@@ -36,40 +36,35 @@
  /* Alignment for index styles */
 
  .alignment-logo {
-   float: right;
-   clear: both;
-   display: inline-block;
+   background-color: none;
    position: relative;
    margin-top: 5rem;
-   margin-right: 60rem;
- }
+   margin-left: 24rem;
+  } 
  
  .alignment-info {
-   float: right;
-   clear: both;
-   display: inline-block;
+   background-color: none;
    position: relative;
-   margin-top: 12rem;
-   margin-right: 60rem;
- }
+   margin-top: 5rem;
+   margin-left: 22rem;
+ } 
  
  .alignment-portfolio {
-   float: left;
-   margin-top: -12rem;
-   display: inline-block;
-   position: inherit;
+   float: right;
+   margin-left: 30rem;
+   margin-top: 10rem;
  }
 
 /* text and positioning styles */
 
  .logo {
+   background-color: transparent;
    font-family: Helvetica, sans-serif;
    font-size: 50px;
    font-weight: 900 !important;
    color: #000;
    border-bottom: 5px solid black;
    display: inline-block;
-   position: fixed;
  }
 
  .logo > a {
@@ -79,12 +74,12 @@
  }
 
  .info {
+   background-color: transparent;
    font-family: 'Roboto', Helvetica, sans-serif;
-   font-size: 1.5em;
+   font-size: 2em;
    font-weight: 900;
    color: #000;
    line-height: 30px;
-   position: fixed;
  }
 
  .info > p {
@@ -98,7 +93,6 @@
    font-weight: 900;
    color: #000;
    line-height: 40px;
-   margin-left: 5rem;
   }
 
  .portfolio-header {
@@ -117,11 +111,9 @@
  /* Spectre CSS Override */
  
  .card-fix {
-   max-width: 50%;
+   max-width: 75%;
    border: 0.5px solid black;
    margin-bottom: 2rem;
-   clear: both;
-   position: relative;
  }
  /* Link styles */
 
