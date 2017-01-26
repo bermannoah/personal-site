@@ -107,7 +107,7 @@
    font-size: 2rem !important;
    font-weight: bold;
  }
- 
+  
  /* Spectre CSS Override */
  
  .card-fix {
@@ -117,25 +117,26 @@
  }
  /* Link styles */
 
- a {
-   text-decoration: none;
-   color: #fff;
- }
-
- a:hover {
-  text-decoration: none;
-  color: #000;
- }
-
- a:visited {
+ .info-link {
   text-decoration: none;
   color: #fff;
  }
 
- a:visited:hover {
+ .info-link:hover {
+  text-decoration: none;
   color: #000;
  }
 
+ .info-link:visited:hover {
+  text-decoration: none;
+  color: #000;
+ }
+
+ .info-link:visited {
+  text-decoration: none;
+  color: #fff;
+ }
+ 
  .logo > a {
   text-decoration: none;
   color: #000;
@@ -154,20 +155,22 @@
   color: #fff;
  }
  
- .portfolio-link > a {
+ .portfolio-link {
   text-decoration: none;
   color: #000;
  }
 
- .portfolio-link > a:hover {
+ .portfolio-link:hover {
   text-decoration: none;
   color: #AA8F00;
  }
 
- .portfolio-link > a:visited:hover {
+ .portfolio-link:visited:hover {
+  text-decoration: none;
   color: #AA8F00;
  }
 
- .portfolio-link > a:visited {
+ .portfolio-link:visited {
+  text-decoration: none;
   color: #000;
  }
