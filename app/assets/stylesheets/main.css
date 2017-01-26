@@ -36,14 +36,15 @@
  /* Alignment for index styles */
 
  .alignment-logo {
-   background-color: none;
+   float: left;
+   background-color: transparent;
    position: relative;
    margin-top: 5rem;
    margin-left: 24rem;
   } 
  
  .alignment-info {
-   background-color: none;
+   float: left;
    position: relative;
    margin-top: 5rem;
    margin-left: 22rem;
@@ -58,7 +59,6 @@
 /* text and positioning styles */
 
  .logo {
-   background-color: transparent;
    font-family: Helvetica, sans-serif;
    font-size: 50px;
    font-weight: 900 !important;
