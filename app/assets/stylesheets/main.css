@@ -32,15 +32,14 @@
   to {background-color: #C28E7C; }
 }
 
- 
  /* Alignment for index styles */
 
  .alignment-logo {
    float: left;
-   background-color: transparent;
    position: relative;
    margin-top: 5rem;
-   margin-left: 24rem;
+   margin-left: 22rem;
+   margin-right: 22rem;
   } 
  
  .alignment-info {
@@ -48,12 +47,13 @@
    position: relative;
    margin-top: 5rem;
    margin-left: 22rem;
+   margin-right: 22rem;
  } 
  
  .alignment-portfolio {
-   float: right;
-   margin-left: 30rem;
-   margin-top: 10rem;
+   margin-top: 5rem;
+   float: left;
+   margin-left: 20rem;
  }
 
 /* text and positioning styles */
